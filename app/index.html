@@ -17,15 +17,12 @@
   </head>
 
   <body ng-app="<%= appName %>">
+    <ion-nav-bar class="nav-title-slide-ios7 bar-light">
+      <ion-nav-back-button class="button-icon ion-arrow-left-c">
+      </ion-nav-back-button>
+    </ion-nav-bar>
 
-    <!-- Our navigation router with some animations set -->
-    <pane nav-router animation="slide-left-right-ios7">
-      <!-- The nav bar that will be updated as we navigate -->
-      <nav-bar class="nav-title-slide-ios7" type="bar-default" back-button-type="button-icon" back-button-icon="icon ion-arrow-left-c"></nav-bar>
-
-      <!-- where the content of each page will be rendered -->
-      <ion-nav-view></ion-nav-view>
-    </pane>
+    <ion-nav-view></ion-nav-view>
 
     <!-- build:js scripts/vendor.js -->
     <!-- <script src="vendor/someContribJs.js"></script> -->
