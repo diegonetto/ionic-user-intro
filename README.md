@@ -1,4 +1,4 @@
-ionic-user-tutorial
+ionic-user-intro
 ==========================
 > For use with this [Yeoman Generator](https://github.com/diegonetto/generator-ionic)
 
