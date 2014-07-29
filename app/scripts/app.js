@@ -2,7 +2,7 @@
 // Ionic Starter App
 
 // angular.module is a global place for creating, registering and retrieving Angular modules
-angular.module('<%= appName %>', ['ionic', '<%= appName %>.controllers'])
+angular.module('<%= appName %>', ['ionic', 'config', '<%= appName %>.controllers'])
 
 .config(function($stateProvider, $urlRouterProvider) {
 
