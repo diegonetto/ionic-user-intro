@@ -25,5 +25,5 @@ angular.module('<%= appName %>.controllers', [])
   
   $scope.toIntro = function(){
     $state.go('intro');
-  }
+  };
 });
